@@ -1,18 +1,18 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PropTypes from "prop-types";
+import React from "react"
+import Helmet from "react-helmet"
+import PropTypes from "prop-types"
 
-import "./index.css";
-import "./layout.css";
-import image from "../static/images/logo.png";
-import Media from "react-media";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import { withStyles } from "@material-ui/core/styles";
-import colors from "../layouts/Colors";
-import withMobileDialog from "@material-ui/core/withMobileDialog";
+import "./index.css"
+import "./layout.css"
+import image from "../static/images/logo.png"
+import Media from "react-media"
+import AppBar from "@material-ui/core/AppBar"
+import Toolbar from "@material-ui/core/Toolbar"
+import Typography from "@material-ui/core/Typography"
+import Button from "@material-ui/core/Button"
+import { withStyles } from "@material-ui/core/styles"
+import colors from "../layouts/Colors"
+import withMobileDialog from "@material-ui/core/withMobileDialog"
 
 const styles = {
   navHeaderTitle: {
@@ -39,7 +39,7 @@ const styles = {
       color: `${colors.purple.hex}`
     }
   }
-};
+}
 
 const Header = props => (
   <AppBar position="fixed" className={props.classes.navBarColor}>
@@ -117,7 +117,7 @@ const Header = props => (
   //     </h1>
   //   </div>
   // </div>
-);
+)
 
 const Sidebar = props => (
   <div
@@ -130,16 +130,16 @@ const Sidebar = props => (
   >
     <strong>{props.title}.</strong> {props.description}
   </div>
-);
+)
 
 class TemplateWrapper extends React.Component {
   render() {
-    const { classes, fullScreen } = this.props;
+    const { classes, fullScreen } = this.props
 
     return (
       <div>
         <Helmet
-          title="Blog | Baseline"
+          title="HRStudio | Blog"
           img={image}
           meta={[
             { name: "description", content: "Sample" },
@@ -190,12 +190,12 @@ class TemplateWrapper extends React.Component {
           </Media>
         </div>
       </div>
-    );
+    )
   }
 }
 TemplateWrapper.propTypes = {
   classes: PropTypes.object.isRequired
-};
+}
 
-TemplateWrapper = withMobileDialog()(TemplateWrapper);
-export default withStyles(styles)(TemplateWrapper);
+TemplateWrapper = withMobileDialog()(TemplateWrapper)
+export default withStyles(styles)(TemplateWrapper)
