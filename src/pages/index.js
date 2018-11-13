@@ -1,16 +1,17 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../layouts"
-import { Grid } from "@material-ui/core"
-import { withStyles } from "@material-ui/core/styles"
-import PropTypes from "prop-types"
-import Card from "@material-ui/core/Card"
-import CardActionArea from "@material-ui/core/CardActionArea"
-import CardActions from "@material-ui/core/CardActions"
-import CardContent from "@material-ui/core/CardContent"
-import CardMedia from "@material-ui/core/CardMedia"
-import Button from "@material-ui/core/Button"
-import Typography from "@material-ui/core/Typography"
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../layouts";
+import { Grid } from "@material-ui/core";
+import { withStyles } from "@material-ui/core/styles";
+import PropTypes from "prop-types";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+import colors from "../layouts/Colors";
 
 const styles = {
   card: {
@@ -18,18 +19,27 @@ const styles = {
   },
   media: {
     height: "100px"
+  },
+  headerText: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    height: "50%",
+    padding: "0 0 8vh 8vh"
   }
-}
+};
 
 class Index extends React.Component {
   render() {
-    const { allMongodbBlog22Articles } = this.props.data
-    let { classes } = this.props
-    console.log("hello", allMongodbBlog22Articles)
+    const { allMongodbBlog22Articles } = this.props.data;
+    let { classes } = this.props;
+    console.log("hello", allMongodbBlog22Articles);
     return (
       <Layout>
-        <h1>Check us out!</h1>
-        <h2>See what Baseline is all about ⛄</h2>
+        <div className={classes.headerText}>
+          <h1 style={{ paddingBottom: "3vh" }}>Check us out!</h1>
+          <h2>See what Baseline is all about ⛄</h2>
+        </div>
         <Grid container spacing={24}>
           {allMongodbBlog22Articles.edges.map(({ node }) => {
             return (
@@ -53,12 +63,15 @@ class Index extends React.Component {
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button
+                      size="small"
+                      style={{ color: `${colors.cyan.hex}` }}
+                    >
                       Share
                     </Button>
                     <Button
+                      style={{ color: `${colors.purple.hex}` }}
                       size="small"
-                      color="primary"
                       href={"http://www." + node.link}
                       target="_blank"
                     >
@@ -92,11 +105,11 @@ class Index extends React.Component {
                 </Card> */}
               </Grid>
               // </div>
-            )
+            );
           })}
         </Grid>
       </Layout>
-    )
+    );
   }
 }
 {
@@ -116,7 +129,7 @@ class Index extends React.Component {
                   <p>{node.subTitle}</p> */
 }
 
-export default withStyles(styles)(Index)
+export default withStyles(styles)(Index);
 
 export const pageQuery = graphql`
   query {
@@ -132,4 +145,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
