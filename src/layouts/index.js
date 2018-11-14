@@ -82,6 +82,8 @@ const Header = props => (
       <Button
         className={props.classes.button}
         // onClick={() => this.props.history.push("/login")}
+        href={"http://www.hrstudio.me"}
+        target="_blank"
       >
         HRStudio
       </Button>
@@ -155,7 +157,7 @@ class TemplateWrapper extends React.Component {
             flexDirection: "row",
             justifyContent: "space-between",
             height: "100%",
-            paddingTop: "20vh"
+            paddingTop: `${fullScreen ? "0" : "20vh"}`
           }}
         >
           {/* <div style={{ flex: 1 }}>{this.props.children}</div> */}

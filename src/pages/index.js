@@ -12,6 +12,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import colors from "../layouts/Colors";
+import withMobileDialog from "@material-ui/core/withMobileDialog";
 
 const styles = {
   card: {
@@ -32,15 +33,23 @@ const styles = {
 class Index extends React.Component {
   render() {
     const { allMongodbBlog22Articles } = this.props.data;
-    let { classes } = this.props;
-    console.log("hello", allMongodbBlog22Articles);
+    let { classes, fullScreen } = this.props;
+
     return (
       <Layout>
-        <div className={classes.headerText}>
-          <h1 style={{ paddingBottom: "3vh" }}>Check us out!</h1>
+        <div
+          className={classes.headerText}
+          style={fullScreen ? { height: "19%", padding: "8vh 0 0 8vh" } : null}
+        >
           <h2>See what Baseline is all about ⛄</h2>
         </div>
-        <Grid container spacing={24}>
+        <Grid
+          container
+          spacing={24}
+          style={
+            fullScreen ? { display: "flex", justifyContent: "center" } : null
+          }
+        >
           {allMongodbBlog22Articles.edges.map(({ node }) => {
             return (
               // <div style={{ marginBottom: "25px", display: "inherit" }}>
@@ -129,6 +138,7 @@ class Index extends React.Component {
                   <p>{node.subTitle}</p> */
 }
 
+Index = withMobileDialog()(Index);
 export default withStyles(styles)(Index);
 
 export const pageQuery = graphql`
