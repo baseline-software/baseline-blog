@@ -1,7 +1,13 @@
-/node_modules
+node_modules
 
 /package-lock.json
 
+<<<<<<< HEAD
 public
 
 .cache
+=======
+.cache
+
+public
+>>>>>>> 0123f121ce0525dc5176117ec8cb38d85b3bd0cf
