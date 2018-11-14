@@ -63,7 +63,7 @@ const Header = props => (
         href={"http://www.hrstudio.me"}
         target="_blank"
       >
-        HRStudio
+        Home
       </Button>
     </Toolbar>
   </AppBar>

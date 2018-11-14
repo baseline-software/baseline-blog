@@ -5,6 +5,7 @@
   "author": "jhermans85@hotmail.com",
   "dependencies": {
     "@material-ui/core": "^3.5.1",
+    "core-js": "^2.5.7",
     "gatsby": "^2.0.0",
     "gatsby-plugin-material-ui": "^0.1.3",
     "gatsby-plugin-react-helmet": "^3.0.0",

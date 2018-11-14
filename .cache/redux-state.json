@@ -1,28 +1,19 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ee7a51f1593a8ce319d1de3cc3eeacf1",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -50,14 +41,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "45fefba00a63da0700ed9a53139363c7",
+        "contentDigest": "d8f4849c8bcc42079a6afde5e29bdc73",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin load-babel-config": {
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "Plugin load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -85,14 +76,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4a2060b6b693cfa9bbc7ff40cfdf0268",
+        "contentDigest": "4c21e3f945e8f70965d91e4e5df151e7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -121,14 +112,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "42514ec880b2477391c87ec5e3103a6e",
+        "contentDigest": "171f36f98f4416dc1bfdaf0867bb8896",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -156,14 +147,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c826e7d3bac916d5a9e8b48ef5a90058",
+        "contentDigest": "867256898d48ba48d1ec924882a9d60e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -191,16 +182,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bd5df5ef9ef829f089279f5f56517233",
+        "contentDigest": "c8ffce31179ad94e7338897f475a6c14",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-source-mongodb": {
+    "6cb36eac-96be-55a4-acf4-1cc17280ce5c": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-source-mongodb",
-      "id": "Plugin gatsby-source-mongodb",
+      "id": "6cb36eac-96be-55a4-acf4-1cc17280ce5c",
       "name": "gatsby-source-mongodb",
-      "version": "2.0.5",
+      "version": "2.0.8",
       "pluginOptions": {
         "plugins": [],
         "dbName": "blog22",
@@ -228,7 +219,7 @@
       "packageJson": {
         "name": "gatsby-source-mongodb",
         "description": "Source plugin for pulling data into Gatsby from MongoDB collections",
-        "version": "2.0.5",
+        "version": "2.0.8",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -266,6 +257,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -282,16 +277,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d1e045f07e5bc19f48c90a6c76f1c5d0",
+        "contentDigest": "31c4400fe5caa1e4bf0a3eed0a0dc2bd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.0",
+      "version": "3.0.2",
       "pluginOptions": {
         "plugins": []
       },
@@ -304,7 +299,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.0",
+        "version": "3.0.2",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -343,6 +338,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -363,16 +362,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "084fec184a251decc3af82a7fb15e793",
+        "contentDigest": "9bc59905eb72debb91160873da1629ae",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-remark": {
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-transformer-remark",
-      "id": "Plugin gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
       "name": "gatsby-transformer-remark",
-      "version": "2.1.9",
+      "version": "2.1.12",
       "pluginOptions": {
         "plugins": []
       },
@@ -386,7 +385,7 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.1.9",
+        "version": "2.1.12",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -486,6 +485,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -493,7 +496,7 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.33"
           }
         ],
         "optionalDependecies": [],
@@ -502,14 +505,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "348eea8f7f14400eb063f555fe1d7dfd",
+        "contentDigest": "b517fff5d289690fac1b6dc7d9fc2bb0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo",
-      "id": "Plugin default-site-plugin",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "33b933f3b1629f1e7425ea51d0f0060f",
       "pluginOptions": {
@@ -531,6 +534,10 @@
           {
             "name": "@material-ui/core",
             "version": "^3.5.1"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.7"
           },
           {
             "name": "gatsby",
@@ -577,16 +584,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "73b148d7ae12bfd764953f7c55e4d6fc",
+        "contentDigest": "74e3f3bae84c1d658c00860a2054a94e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
+    "a02a55fa-60b2-5e4f-a58c-2a7f52187253": {
       "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+      "id": "a02a55fa-60b2-5e4f-a58c-2a7f52187253",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.1",
+      "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages",
@@ -601,7 +608,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.1",
+        "version": "2.0.4",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -638,6 +645,10 @@
             "version": "^4.17.10"
           },
           {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
             "name": "parse-filepath",
             "version": "^1.0.1"
           },
@@ -656,6 +667,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -672,7 +687,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3961138cc203689792308af3e14a0cca",
+        "contentDigest": "f9e2aff2fe2114b1cab1a90539728967",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -681,16 +696,14 @@
       "siteMetadata": {
         "title": "Gatsby with MongoDB"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-14T23:17:33.055Z",
+      "buildTime": "2018-11-14T23:42:54.301Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0e6c0c3c4d08b7fe02953b87e5bc5e5b",
+        "contentDigest": "fafa282344d57b68c88d54421a8919bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -787,23 +800,23 @@
       "component": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "a02a55fa-60b2-5e4f-a58c-2a7f52187253",
+      "pluginCreatorId": "a02a55fa-60b2-5e4f-a58c-2a7f52187253",
       "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d16b07ec4e744fe6e7b1035491cee23e",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "c96cccc0a18783d982a30b6cdea2d4e5",
+        "description": "a02a55fa-60b2-5e4f-a58c-2a7f52187253",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1ee3c32538f7a5786e00ef007ce8c6b1"
+    "PLUGINS_HASH": "23053fd5470b0232ca1cefcbbccdae02"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -814,14 +827,10 @@
     }
   },
   "jsonDataPaths": {
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "134/path---index-6a9-mE08IeXs1wLWJFzj8zsIkmIn3s"
+    "index": "134/path---index-6a9-mE08IeXs1wLWJFzj8zsIkmIn3s",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js"
-    },
     "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js": {
       "query": "query usersMichaeldemerjianDesktopGatsbyMongoSrcPagesIndexJs2194006402 {\n  allMongodbBlog22Articles {\n    edges {\n      node {\n        id\n        title\n        subTitle\n        link\n        image\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js"

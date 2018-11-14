@@ -26,7 +26,12 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     height: "50%",
-    padding: "0 0 8vh 8vh"
+    padding: "0 0 0vh 8vh"
+  },
+  header: {
+    fontSize: "220%",
+    color: "purple",
+    lineHeight: "2.5rem"
   }
 }
 
@@ -41,7 +46,7 @@ class Index extends React.Component {
           className={classes.headerText}
           style={fullScreen ? { height: "19%", padding: "8vh 0 0 8vh" } : null}
         >
-          <h2>See what Baseline is all about ⛄</h2>
+          <h1 className={classes.header}>See what we are all about ⛄</h1>
         </div>
         <Grid
           container
