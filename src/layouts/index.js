@@ -38,6 +38,10 @@ const styles = {
     "& span": {
       color: `${colors.purple.hex}`
     }
+  },
+  logoButton: {
+    textDecoration: "none",
+    color: "black"
   }
 };
 
@@ -49,7 +53,9 @@ const Header = props => (
         color="textPrimary"
         className={props.classes.navHeaderTitle}
       >
-        HRStudio | Blog
+        <a className={props.classes.logoButton} href=".">
+          HRStudio | Blog
+        </a>
       </Typography>
       {/* <div className={props.classes.navItems}>
         {!props.fullScreen && (
@@ -157,7 +163,7 @@ class TemplateWrapper extends React.Component {
             flexDirection: "row",
             justifyContent: "space-between",
             height: "100%",
-            paddingTop: `${fullScreen ? "0" : "20vh"}`
+            paddingTop: `${fullScreen ? "0" : "8vh"}`
           }}
         >
           {/* <div style={{ flex: 1 }}>{this.props.children}</div> */}
