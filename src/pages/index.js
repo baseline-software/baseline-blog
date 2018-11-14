@@ -52,7 +52,6 @@ class Index extends React.Component {
         >
           {allMongodbBlog22Articles.edges.map(({ node }) => {
             return (
-              // <div style={{ marginBottom: "25px", display: "inherit" }}>
               <Grid item xs={10} sm={6} md={4} lg={4}>
                 <Card item className={classes.card}>
                   <CardActionArea>
@@ -88,54 +87,13 @@ class Index extends React.Component {
                     </Button>
                   </CardActions>
                 </Card>
-
-                {/* <Card className={classes.card}>
-                  <CardActionArea>
-                    <CardMedia
-                      className={classes.media}
-                      image={image}
-                      title="Contemplative Reptile"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        {node.title}
-                      </Typography>
-                      <Typography component="p">{node.subTitle}</Typography>
-                    </CardContent>
-                  </CardActionArea>
-                  <CardActions>
-                    <Button size="small" color="primary">
-                      Share
-                    </Button>
-                    <Button size="small" color="primary">
-                      <Link to={node.link}>Continue Reading...</Link>
-                    </Button>
-                  </CardActions>
-                </Card> */}
               </Grid>
-              // </div>
             );
           })}
         </Grid>
       </Layout>
     );
   }
-}
-{
-  /* <h1
-                    style={{ fontSize: "1.2rem", textDecorationLine: "none" }}
-                  >
-                    <Link to={node.id}>{node.title}</Link>
-                  </h1>
-                  <h2
-                    style={{
-                      fontSize: "0.8rem !important",
-                      fontWeight: "100 !important"
-                    }}
-                  >
-                    {node.link}
-                  </h2>
-                  <p>{node.subTitle}</p> */
 }
 
 Index = withMobileDialog()(Index);
