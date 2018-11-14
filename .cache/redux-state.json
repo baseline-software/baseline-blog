@@ -685,12 +685,20 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
+<<<<<<< HEAD
       "buildTime": "2018-11-13T08:02:11.870Z",
+=======
+      "buildTime": "2018-11-14T21:45:03.287Z",
+>>>>>>> 120ec182b115db2a5bb612f3ed00733c4bc88dcd
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "daf87d7c474540ca0d5395b10b517705",
+=======
+        "contentDigest": "09635f69041cf0252a3be572d703be67",
+>>>>>>> 120ec182b115db2a5bb612f3ed00733c4bc88dcd
         "type": "Site",
         "owner": "internal-data-bridge"
       }

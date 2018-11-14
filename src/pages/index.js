@@ -12,6 +12,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import colors from "../layouts/Colors";
+import withMobileDialog from "@material-ui/core/withMobileDialog";
 
 const styles = {
   card: {
@@ -32,18 +33,25 @@ const styles = {
 class Index extends React.Component {
   render() {
     const { allMongodbBlog22Articles } = this.props.data;
-    let { classes } = this.props;
-    console.log("hello", allMongodbBlog22Articles);
+    let { classes, fullScreen } = this.props;
+
     return (
       <Layout>
-        <div className={classes.headerText}>
-          <h1 style={{ paddingBottom: "3vh" }}>Check us out!</h1>
+        <div
+          className={classes.headerText}
+          style={fullScreen ? { height: "19%", padding: "8vh 0 0 8vh" } : null}
+        >
           <h2>See what Baseline is all about ⛄</h2>
         </div>
-        <Grid container spacing={24}>
+        <Grid
+          container
+          spacing={24}
+          style={
+            fullScreen ? { display: "flex", justifyContent: "center" } : null
+          }
+        >
           {allMongodbBlog22Articles.edges.map(({ node }) => {
             return (
-              // <div style={{ marginBottom: "25px", display: "inherit" }}>
               <Grid item xs={10} sm={6} md={4} lg={4}>
                 <Card item className={classes.card}>
                   <CardActionArea>
@@ -79,32 +87,7 @@ class Index extends React.Component {
                     </Button>
                   </CardActions>
                 </Card>
-
-                {/* <Card className={classes.card}>
-                  <CardActionArea>
-                    <CardMedia
-                      className={classes.media}
-                      image={image}
-                      title="Contemplative Reptile"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        {node.title}
-                      </Typography>
-                      <Typography component="p">{node.subTitle}</Typography>
-                    </CardContent>
-                  </CardActionArea>
-                  <CardActions>
-                    <Button size="small" color="primary">
-                      Share
-                    </Button>
-                    <Button size="small" color="primary">
-                      <Link to={node.link}>Continue Reading...</Link>
-                    </Button>
-                  </CardActions>
-                </Card> */}
               </Grid>
-              // </div>
             );
           })}
         </Grid>
@@ -112,23 +95,8 @@ class Index extends React.Component {
     );
   }
 }
-{
-  /* <h1
-                    style={{ fontSize: "1.2rem", textDecorationLine: "none" }}
-                  >
-                    <Link to={node.id}>{node.title}</Link>
-                  </h1>
-                  <h2
-                    style={{
-                      fontSize: "0.8rem !important",
-                      fontWeight: "100 !important"
-                    }}
-                  >
-                    {node.link}
-                  </h2>
-                  <p>{node.subTitle}</p> */
-}
 
+Index = withMobileDialog()(Index);
 export default withStyles(styles)(Index);
 
 export const pageQuery = graphql`
