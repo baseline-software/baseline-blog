@@ -10,7 +10,6 @@ const support = function(feature) {
   } catch (err) {
     return false
   }
-  return false
 }
 const linkPrefetchStrategy = function(url) {
   if (typeof document === `undefined`) {

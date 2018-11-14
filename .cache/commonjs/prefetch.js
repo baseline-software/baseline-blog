@@ -17,8 +17,6 @@ const support = function support(feature) {
   } catch (err) {
     return false;
   }
-
-  return false;
 };
 
 const linkPrefetchStrategy = function linkPrefetchStrategy(url) {

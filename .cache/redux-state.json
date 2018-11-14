@@ -4,25 +4,25 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/baseline01/Desktop/baseline/baseline-blog/.cache/dev-404-page.js",
+      "component": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/baseline01/Desktop/baseline/baseline-blog/.cache/dev-404-page.js",
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f1249e16571942dab8d125c9eba5795",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "ee7a51f1593a8ce319d1de3cc3eeacf1",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
-    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+    "Plugin dev-404-page": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,14 +50,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8d50aa5c2297f13dcf28f4162d54a887",
+        "contentDigest": "45fefba00a63da0700ed9a53139363c7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+    "Plugin load-babel-config": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,14 +85,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c36f59581e6ac4515ab40e400c8b5110",
+        "contentDigest": "4a2060b6b693cfa9bbc7ff40cfdf0268",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,14 +121,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1097eb4b510dce0e5351a4de92ecbd06",
+        "contentDigest": "42514ec880b2477391c87ec5e3103a6e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+    "Plugin prod-404": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,14 +156,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "35eefe351dde61099ef92c6e3f288cf1",
+        "contentDigest": "c826e7d3bac916d5a9e8b48ef5a90058",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+    "Plugin query-runner": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,16 +191,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4a468a5958a9b880036012328a816f79",
+        "contentDigest": "bd5df5ef9ef829f089279f5f56517233",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "6cb36eac-96be-55a4-acf4-1cc17280ce5c": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-source-mongodb",
-      "id": "6cb36eac-96be-55a4-acf4-1cc17280ce5c",
+    "Plugin gatsby-source-mongodb": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-source-mongodb",
+      "id": "Plugin gatsby-source-mongodb",
       "name": "gatsby-source-mongodb",
-      "version": "2.0.8",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "dbName": "blog22",
@@ -224,11 +224,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-source-mongodb",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-source-mongodb",
       "packageJson": {
         "name": "gatsby-source-mongodb",
         "description": "Source plugin for pulling data into Gatsby from MongoDB collections",
-        "version": "2.0.8",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -266,10 +266,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -286,16 +282,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "17b34f26abf12d7909b774df9dd714b6",
+        "contentDigest": "d1e045f07e5bc19f48c90a6c76f1c5d0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-plugin-react-helmet",
-      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.2",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -304,11 +300,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.2",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -347,10 +343,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -371,16 +363,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3792b992612654b79a42c357b42b3cdb",
+        "contentDigest": "084fec184a251decc3af82a7fb15e793",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-transformer-remark",
-      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "2.1.12",
+      "version": "2.1.9",
       "pluginOptions": {
         "plugins": []
       },
@@ -390,11 +382,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.1.12",
+        "version": "2.1.9",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -494,10 +486,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -505,7 +493,7 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.33"
+            "version": ">2.0.0-alpha"
           }
         ],
         "optionalDependecies": [],
@@ -514,14 +502,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a062babfde57c04c01369f5bd81f839d",
+        "contentDigest": "348eea8f7f14400eb063f555fe1d7dfd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog",
-      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo",
+      "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "33b933f3b1629f1e7425ea51d0f0060f",
       "pluginOptions": {
@@ -532,7 +520,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo",
       "packageJson": {
         "name": "using-mongodb",
         "description": "Gatsby example site using gatsby-source-mongodb",
@@ -589,19 +577,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "31dbf71a1dae81cf61bf72df4b855040",
+        "contentDigest": "73b148d7ae12bfd764953f7c55e4d6fc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1fc0bc32-d609-5589-9b30-a814affa5205": {
-      "resolve": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-plugin-page-creator",
-      "id": "1fc0bc32-d609-5589-9b30-a814affa5205",
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.4",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/baseline01/Desktop/baseline/baseline-blog/src/pages",
+        "path": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -609,11 +597,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/baseline01/Desktop/baseline/baseline-blog/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.4",
+        "version": "2.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -650,10 +638,6 @@
             "version": "^4.17.10"
           },
           {
-            "name": "micromatch",
-            "version": "^3.1.10"
-          },
-          {
             "name": "parse-filepath",
             "version": "^1.0.1"
           },
@@ -672,10 +656,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -692,7 +672,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "34f29c7b383fe741fea0f19c72b55001",
+        "contentDigest": "3961138cc203689792308af3e14a0cca",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -705,12 +685,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-13T00:23:23.670Z",
+      "buildTime": "2018-11-13T08:02:11.870Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28da0d00cc7732e4afb95ebe28b0deb7",
+        "contentDigest": "daf87d7c474540ca0d5395b10b517705",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -787,26 +767,26 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/baseline01/Desktop/baseline/baseline-blog/src/pages/index.js",
+      "component": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "1fc0bc32-d609-5589-9b30-a814affa5205",
-      "pluginCreatorId": "1fc0bc32-d609-5589-9b30-a814affa5205",
-      "componentPath": "/Users/baseline01/Desktop/baseline/baseline-blog/src/pages/index.js",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "16504e03350c168e638aa3d3060928d0",
-        "description": "1fc0bc32-d609-5589-9b30-a814affa5205",
+        "contentDigest": "d16b07ec4e744fe6e7b1035491cee23e",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "94ab52f755a482b02e4b354ca7898358"
+    "PLUGINS_HASH": "1ee3c32538f7a5786e00ef007ce8c6b1"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -821,13 +801,13 @@
     "index": "188/path---index-6a9-Mnw4z0cFfAfU1Zyf0QpuY8VOTbQ"
   },
   "components": {
-    "/Users/baseline01/Desktop/baseline/baseline-blog/.cache/dev-404-page.js": {
+    "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/baseline01/Desktop/baseline/baseline-blog/.cache/dev-404-page.js"
+      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/.cache/dev-404-page.js"
     },
-    "/Users/baseline01/Desktop/baseline/baseline-blog/src/pages/index.js": {
-      "query": "query usersBaseline01DesktopBaselineBaselineBlogSrcPagesIndexJs2194006402 {\n  allMongodbBlog22Articles {\n    edges {\n      node {\n        id\n        title\n        subTitle\n        link\n        image\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/baseline01/Desktop/baseline/baseline-blog/src/pages/index.js"
+    "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js": {
+      "query": "query usersMichaeldemerjianDesktopGatsbyMongoSrcPagesIndexJs2194006402 {\n  allMongodbBlog22Articles {\n    edges {\n      node {\n        id\n        title\n        subTitle\n        link\n        image\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/michaeldemerjian/Desktop/gatsby-mongo/src/pages/index.js"
     }
   },
   "staticQueryComponents": {}
