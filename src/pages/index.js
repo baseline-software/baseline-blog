@@ -1,18 +1,18 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../layouts";
-import { Grid } from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
-import PropTypes from "prop-types";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import colors from "../layouts/Colors";
-import withMobileDialog from "@material-ui/core/withMobileDialog";
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../layouts"
+import { Grid } from "@material-ui/core"
+import { withStyles } from "@material-ui/core/styles"
+import PropTypes from "prop-types"
+import Card from "@material-ui/core/Card"
+import CardActionArea from "@material-ui/core/CardActionArea"
+import CardActions from "@material-ui/core/CardActions"
+import CardContent from "@material-ui/core/CardContent"
+import CardMedia from "@material-ui/core/CardMedia"
+import Button from "@material-ui/core/Button"
+import Typography from "@material-ui/core/Typography"
+import colors from "../layouts/Colors"
+import withMobileDialog from "@material-ui/core/withMobileDialog"
 
 const styles = {
   card: {
@@ -28,13 +28,13 @@ const styles = {
     height: "50%",
     padding: "0 0 8vh 8vh"
   }
-};
+}
 
 class Index extends React.Component {
   render() {
-    const { allMongodbBlog22Articles } = this.props.data;
-    let { classes, fullScreen } = this.props;
-
+    const { allMongodbBlog22Articles } = this.props.data
+    let { classes, fullScreen } = this.props
+    console.log(allMongodbBlog22Articles)
     return (
       <Layout>
         <div
@@ -88,16 +88,16 @@ class Index extends React.Component {
                   </CardActions>
                 </Card>
               </Grid>
-            );
+            )
           })}
         </Grid>
       </Layout>
-    );
+    )
   }
 }
 
-Index = withMobileDialog()(Index);
-export default withStyles(styles)(Index);
+Index = withMobileDialog()(Index)
+export default withStyles(styles)(Index)
 
 export const pageQuery = graphql`
   query {
@@ -113,4 +113,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
